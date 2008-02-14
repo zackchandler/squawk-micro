@@ -1,0 +1,8 @@
+<ul>
+	<% for post in @posts %>
+		<li>
+			<span><%= post.published_at.strftime '%m/%d/%y' %></span>
+			<a href="<%= post.permalink %>.html"><%= post.title %></a>
+		</li>
+	<% end %>
+</ul>
