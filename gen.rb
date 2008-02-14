@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 %w(rubygems ostruct fileutils erubis bluecloth).each { |lib| require lib }
 
 # generate layout
